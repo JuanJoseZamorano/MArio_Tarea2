@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/recycleFragment">
+
+    <fragment
+        android:id="@+id/recycleFragment"
+        android:name="zamoranogarcia.juanjose.mario_tarea2.RecycleFragment"
+        android:label="@string/listado_personajes"
+        tools:layout="@layout/fragment_recycle" >
+        <action
+            android:id="@+id/action_recycleFragment_to_detallePersonajeFragmen"
+            app:destination="@id/detallePersonajeFragmen" />
+    </fragment>
+    <fragment
+        android:id="@+id/detallePersonajeFragmen"
+        android:name="zamoranogarcia.juanjose.mario_tarea2.DetallePersonajeFragmen"
+        android:label="@string/Detalles_personaje"
+        tools:layout="@layout/fragment_detalle_personaje" />
+    <fragment
+        android:id="@+id/configuracion_Fragment"
+        android:name="zamoranogarcia.juanjose.mario_tarea2.Configuracion_Fragment"
+        android:label="@string/configuracion_idioma"
+        tools:layout="@layout/fragment_configuracion_" />
+</navigation>

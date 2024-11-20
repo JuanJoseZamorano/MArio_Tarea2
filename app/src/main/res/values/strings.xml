@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">App de Mario</string>
+    <string name="listado_personajes">Personajes</string>
+    <string name="Detalles_personaje">Detalles del Personaje</string>
+    <string name="selecciontoast">Datos cargados para el personaje </string>
+    <string name="descripcionMario">Héroe principal del Reino Champiñón, valiente y carismático.</string>
+    <string name="descripcionLuigi">Hermano de Mario, inteligente, ágil y algo tímido.</string>
+    <string name="descripcionPeach">Princesa del Reino Champiñón, valiente y siempre amable.</string>
+    <string name="descripcionToad">Habitante del Reino Champiñón, fiel amigo y veloz ayudante.</string>
+    <string name="habilidadesMario">Experto en saltos de precisión, fuerza y valentía inigualables. Puede lanzar bolas de fuego, usar trajes con poderes especiales, y siempre lidera en misiones heroicas.</string>
+    <string name="habilidadesLuigi">Salta más alto que Mario, es cauteloso y creativo en resolver problemas. Usa su aspiradora especial para cazar fantasmas y es conocido por su agilidad.</string>
+    <string name="habilidadesPeach">Puede planear en el aire gracias a su vestido especial. Es hábil en estrategias, con poderes mágicos y una voluntad firme para defender el Reino Champiñón.</string>
+    <string name="habilidadesToad">Es extremadamente rápido y ágil. Tiene una fuerza sorprendente para su tamaño, y es muy confiable en carreras o misiones de apoyo en el Reino Champiñón.</string>
+    <string name="acercade">Acerca de...</string>
+    <string name="mensajedialogo">Aplicación desarrollada por Juan Jose Zamorano García. Versión 1.0.</string>
+    <string name="username">UserName</string>
+    <string name="descripcion_imagen_header">Descripction Header Image</string>
+    <string name="configuracion_idioma">Languages settings</string>
+    <string name="ajustes">Settings</string>
+    <string name="home">Home</string>
+    <string name="cambialengua">Change Language</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+</resources>

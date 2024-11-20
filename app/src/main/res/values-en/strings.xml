@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mario Application</string>
+    <string name="listado_personajes">Character List</string>
+    <string name="Detalles_personaje">Character Details</string>
+    <string name="selecciontoast">Information charged for</string>
+    <string name="descripcionMario">Main hero of the Mushroom Kingdom, brave and charismatic.</string>
+    <string name="descripcionLuigi">Marios brother, intelligent, agile, and somewhat shy.</string>
+    <string name="descripcionPeach">Princess of the Mushroom Kingdom, brave and always kind.</string>
+    <string name="descripcionToad">Resident of the Mushroom Kingdom, loyal friend, and swift helper.</string>
+    <string name="habilidadesMario">Expert in precision jumps, unmatched strength, and bravery. Can throw fireballs, use suits with special powers, and always leads heroic missions.</string>
+    <string name="habilidadesLuigi">Jumps higher than Mario, cautious, and creative in solving problems. Uses his special vacuum to hunt ghosts and is known for his agility.</string>
+    <string name="habilidadesPeach">Can glide through the air thanks to her special dress. Skilled in strategies, with magical powers and a firm will to defend the Mushroom Kingdom.</string>
+    <string name="habilidadesToad">Extremely fast and agile. Has surprising strength for his size, and is highly reliable in races or support missions in the Mushroom Kingdom.</string>
+    <string name="acercade">About...</string>
+    <string name="mensajedialogo">This app has been developed  by Juan Jose Zamorano García. Version 1.0.</string>
+    <string name="username">Username</string>
+    <string name="descripcion_imagen_header">Descripction Header Image</string>
+    <string name="configuracion_idioma">Languages settings</string>
+    <string name="ajustes">Settings</string>
+    <string name="home">Home</string>
+    <string name="cambialengua">Change Language</string>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tema principal de la aplicación -->
+    <style name="Theme.Mario_Tarea2" parent="Base.Theme.Mario_Tarea2">
+        <item name="android:windowSplashScreenBackground">@color/rojomario</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/titulo_portada_peque</item>
+        <item name="android:windowSplashScreenAnimationDuration">2000</item>
+        <item name="android:windowSplashScreenIconBackgroundColor">@color/rojomario</item>
+
+    </style>
+
+    <!-- Estilo para la Toolbar -->
+    <style name="ToolbarStyle" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:background">@color/rojomario</item>
+        <item name="titleTextColor">#FFFFFF</item> <!-- Color del texto de la Toolbar -->
+        <item name="android:elevation">4dp</item> <!-- Elevación para darle sombra -->
+        <item name="android:titleTextAppearance">@style/ToolbarTitleText</item>
+    </style>
+
+    <!-- Estilo para el texto de la Toolbar -->
+    <style name="ToolbarTitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <!-- Estilo para CardView -->
+    <style name="CardViewStyle" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">20dp</item>
+        <item name="cardElevation">6dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:background">?attr/colorSurface</item>
+
+    </style>
+
+    <!-- Estilo para TextView en las tarjetas (CardView) -->
+    <style name="CardTextViewStyle" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textSize">33sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:text">"NombreP"</item> <!-- Color oscuro para el texto -->
+
+    </style>
+
+    <!-- Estilo para TextView del Titulo en las tarjetas (CardView) -->
+    <style name="CardTextViewTitleStyle" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">"NombreP"</item> <!-- Color oscuro para el texto -->
+
+    </style>
+
+    <!-- Estilo para los títulos de fragmentos -->
+    <style name="FragmentTitleTextStyle" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/rojomario</item>
+        <item name="android:text">"descripcionP"</item>
+
+    </style>
+</resources>
